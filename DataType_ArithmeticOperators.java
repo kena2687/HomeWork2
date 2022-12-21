@@ -2,8 +2,8 @@ package HomeWork2;
 
 public class DataType_ArithmeticOperators {
     public static void main(String[] args) {
-        int a=100;
-        int b=200;
+        double a=100.5555555555555555555555555555555555555;
+        double b=200.2555555555555555555555555555555555555;
         {System.out.println("Addition:"+(a+b));}
 
         byte c= 10;
@@ -20,15 +20,22 @@ public class DataType_ArithmeticOperators {
 
         long i=5000;
         long j=100;
-        {System.out.println("Modules:"+(a%b));}
+        {System.out.println("Modules:"+(i%j));}
 
         boolean k = true;
         boolean l = false;
         {System.out.println("Statement:"+true);}
         {System.out.println("Statement:"+false);}
 
-        String m = "HomeWork Done.";
-        {System.out.println("Declaration:"+m);}
+        int m = 50;
+        {System.out.println("Increment:"+(m++));}
+        {System.out.println("Increment:"+(++m));}
+        {System.out.println("Decrement:"+(m--));}
+        {System.out.println("Decrement:"+(--m));}
+
+
+        String n = "HomeWork Done.";
+        {System.out.println("Declaration:"+n);}
 
 
 
